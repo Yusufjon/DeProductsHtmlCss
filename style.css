@@ -1,0 +1,709 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+nav{
+    width: 60%;
+    margin: auto;
+
+
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+ 
+}
+
+a{
+    color: black;
+ 
+    
+}
+
+a:hover{
+    background-color: rgb(216, 84, 32);
+
+    text-align: center;
+    
+   overflow: none;
+    
+  
+  
+}
+
+
+.menu{
+    font-size: 20px;
+    padding-top: 25px;
+ 
+    display: inline-block;
+  
+   
+  
+
+    
+}
+
+.toggle a{
+    font-size: 20px;
+}
+.logo-img {
+    float: left;
+    position: relative;
+    margin: 15px 15px 15px 10px;
+}
+
+
+
+.container{
+    
+    display: flex; 
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+.read-more{
+    padding: 0 8% 0px 0px;
+    align-self: flex-end;
+      
+  
+    
+   
+
+}
+
+.submit{ 
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    
+    
+}
+
+
+
+
+.cover{
+    flex: 1;
+    align-self: center;
+    margin-bottom: 5rem;
+ 
+ 
+  
+    
+}
+
+.cover img{
+    height: 60vh;
+   
+
+}
+
+.heading-4-text{
+    font-size: 25px;
+    font-weight: 250;
+    
+    
+    
+}
+
+.Orange-text{
+    color: rgb(255, 8, 0);
+    font-size: 25px;
+    flex: 1;
+    align-self: flex-start;
+    padding-left: 10rem;
+    padding-top:8rem;
+    
+}
+
+.Orange-text h1{
+    width: 300px;
+}
+
+.Orange-text p{
+    color: black;
+    font-size: 15px;
+    padding-top: 2rem;
+    font-style:bold;
+    width: 500px;
+}
+
+.Orange-text h2{
+    color: black;
+    font-weight: 350;
+}
+.border-line{
+    width: 100%;
+    height: 1px;
+    background: black;
+ 
+}
+.product-ads{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cake-cover{
+    flex: 1;
+    padding-left: 5%;
+
+
+}
+.cake-cover img{
+    height: 50vh;
+}
+
+.cake-text{
+
+    flex: 1;
+    font-size: 25px;
+    align-self: flex-start;
+    padding-top: 5rem;
+    
+}
+.test h1{
+    text-decoration: underline;
+text-underline-position: under;
+}
+
+.cake-text p{
+    font-size: 17px;
+    width: 300px;
+    padding-top: 1.5rem;
+}
+
+span{
+    color: orangered;
+    text-decoration: underline;
+   
+    
+}
+
+
+
+.read-more-cake{
+    padding-right: 2rem;
+    padding-bottom: 15rem;
+    padding-left: 5rem;
+ 
+    
+
+}
+
+.submitCake{ 
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 2rem 2px;
+    cursor: pointer;
+    
+    
+}
+.DenProducts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    margin:auto;
+    min-height: 60vh;
+    justify-content: center;
+}
+
+.den-heading{
+  
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 3rem;
+    text-decoration: underline;
+    text-underline-position: under;
+    align-self: flex-start;
+    padding-left: 10rem;
+  
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.card{
+    
+    text-align: center;
+   /* box-shadow: 0 4px 8px 0 rgba(204, 192, 192, 0.945);*/
+    transition: 0.3s;
+    padding:8px;
+   
+}
+.card-container{
+  
+    text-align: center;
+    color: rgb(255, 60, 0);
+    padding-top: 5px;
+}
+
+
+.our-gallery{
+    
+padding-top: 2rem;
+
+  
+   
+    
+}
+
+.our-gallery h1{
+    text-align: center;
+    padding-bottom: 2rem;
+  
+}
+
+.gallery{
+  
+    margin-top: 2rem;
+    height: 40vh;
+   
+}
+
+.gallery img{
+min-width: 100%;
+min-height: 100%;
+object-fit: cover;
+vertical-align: bottom;
+  
+}
+
+.our-gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+  }
+  
+  .our-gallery li {
+    height: 40vh;
+    flex-grow: 1;
+  }
+  
+  .our-gallery img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+
+  .Get-in-touch{
+      padding-top: 2rem;
+      font-size: 30px;
+      text-align: center;
+   
+  }
+  .Get-in-touch h1{
+    margin-bottom: 3rem;
+  }
+  .contact-us{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 75%;
+      margin: auto;
+      margin-left: 18rem;
+  }
+  .contact{
+     
+     text-align: start;
+
+ 
+
+  }
+ .send{
+    background-color: rgb(34, 31, 31);
+    border: none;
+    color: white;
+    padding: 15px 45px;
+     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 2rem 2px;
+    cursor: pointer;
+    margin-left: 30%;
+
+ }
+  .info{
+      height: 50px;
+      width: 300px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      
+  }
+
+  .plain-text{
+      width: 300px;
+      height: 100px;
+      margin-top: 8px;
+      
+
+  }
+
+  .bread-image{
+      margin-left: 1rem;
+  }
+  .bread-image img{
+      height: 40vh;
+  }
+  
+      
+.form-container{
+
+    max-width: 400px;
+  padding: 16px;
+  background-color: orangered;
+}
+
+
+
+
+  .amazing-footer{
+      background: rgb(75, 73, 73);
+      min-height: 20vh;
+      width: 100%;
+
+  }
+  .amazing-footer h1{
+      color: white;
+     margin-left: 18rem;
+     font-size: 40px;
+     text-decoration: underline;
+     text-underline-position: under;
+     
+    
+  }
+  .information{
+    
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 70%;
+      margin: auto;
+      flex: 1;
+  }
+.information h2{
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.information p{
+    color: rgb(165, 158, 158);
+    line-height: 2rem;
+}
+
+.Useful-links{
+    flex: 1;
+   
+}
+
+
+
+
+/*Mobile navbar */
+
+
+
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.toggle{
+    order: 1;
+}
+
+.item.button{
+    order: 2;
+}
+
+.item{
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+
+.item.active{
+    display: block;
+}
+
+/* Navbar Toggle */
+.toggle {
+    cursor:pointer;
+  }
+  .bars {
+    background: #999;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  .bars:before,
+  .bars:after {
+    background: #999;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  .bars:before {
+    top: 5px;
+  }
+  .bars:after {
+    top: -5px;
+  }
+
+  .border-line {
+      width: 100%;
+    
+    }
+    @media all and (max-width: 600px) {
+   .container{
+    margin-left: 35%;
+   }
+   .our-gallery{
+     margin-left: 25%;
+     
+   
+   }
+   .our-gallery ul{
+  flex: 1;
+    width: 100%;
+   }
+ 
+  .Orange-text{
+     text-align: center;
+     flex: 1;
+    
+ }
+.Orange-text h1{
+    width: auto;
+}
+.cover{
+  text-align: center;
+  margin-left: 50%;
+
+}
+.cover img{
+   
+}
+.read-more{
+    padding-left: 30%;
+    margin-left: 10%;
+    padding-bottom: 15%;
+    text-align: center;
+}
+.border-line{
+   
+}
+
+.product-ads{
+      
+    margin-top: 15%;
+    width: 100%;
+    margin-left:35%;
+
+
+}
+.cake-cover img{
+   
+}
+.test{
+    text-align: center;
+    flex: 1;
+}
+.test h1{
+    width: auto;
+    flex: 1;
+}
+.cake-text p{
+    width: 100%;
+    text-align: center;
+}
+
+.cake-text{
+   
+  text-align: center;
+  flex: 1;
+  justify-content: center;
+  
+    
+}
+.cake-text h1{
+    font-size: 28px;
+    text-align: center;
+}
+ .DenProducts{
+   width: auto;
+   margin-left: 25%;
+ }
+
+  .den-heading h1{
+   
+     
+      text-decoration: underline;
+      text-underline-position: under;
+      font-size: 35px;
+      margin-right: 15%;
+      
+
+  }
+
+  .cards{
+      text-align: center;
+      margin-left: 25%;
+  }
+  .our-gallery{
+      margin-left: 40%;
+  }
+
+  .Get-in-touch{
+      width: 100%;
+      justify-content: center;
+      font-size: 20px;
+  }
+  .Get-in-touch h1{
+       text-align: center;
+       margin-left: 35%;
+  
+ }
+
+ .contact{
+     margin-right:70%;
+ }
+
+.bread-image img{
+    height: 30vh;
+    
+}
+.bread-image{
+    margin-right: 40%;
+    display: none;
+}
+.google-map{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.amazing-footer{
+    display: none;
+}
+ 
+
+    }
+  
+
+
+/* Tablet menu */
+@media all and (min-width: 468px) {
+
+.menu{
+
+  
+    justify-content: flex-end;
+ 
+
+   
+    
+}
+
+.menu li{
+    margin-left : 0.7em;
+    margin-right : 0.7em;
+    
+
+}
+
+.logo{
+    flex: 1;
+}
+
+.item.button {
+    width: auto;
+    order: 1;
+    display: block;
+}
+
+.toggle {
+    order: 2;
+}
+
+}
+
+
+/* Desktop menu */
+@media all and (min-width: 768px) {
+
+    .item{
+        display: block;
+        width: auto;
+    }
+    .toggle{
+        display: none;
+    }
+    .logo{
+        order: 0;
+     
+    }
+
+
+    .item{
+        order: 1;
+    }
+
+    .menu li{
+         padding: 15px 10px;
+        
+    }
+ 
+}
+
+
+
